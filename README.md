@@ -1,5 +1,5 @@
 # Overview
-Finds the longest ORF of each sequence in a FASTA files and outputs the translated ORF sequence based on the standards codon table.
+Finds the longest ORF of each sequence in a FASTA files and outputs the translated ORF sequence based on the standard codon table.
 
 ## Manual
 ```
