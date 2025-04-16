@@ -99,7 +99,7 @@ void searchORFs(const std::string &sequence, std::ofstream &outfile, std::string
           //      << "\t" << longest_orf.length << "\t" << longest_orf.sequence 
             //    << "\t" << protein_seq << "\n";
                 
-        outfile << seq_name << "\n" << protein_seq << "\n";
+        outfile << ">" << seq_name << "\n" << protein_seq << "\n";
     }
 }
 
