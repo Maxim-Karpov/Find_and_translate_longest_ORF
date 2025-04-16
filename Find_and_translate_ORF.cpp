@@ -128,7 +128,7 @@ int main(int argc, char **argv) {
     }
     
     std::ifstream infile(filename);
-    out_filename = "Longest_ORFs_translated.txt";
+    out_filename = "Longest_ORFs_translated.fasta";
     std::ofstream outfile(out_filename);
   
     if (!infile.is_open() || !outfile.is_open()) {
