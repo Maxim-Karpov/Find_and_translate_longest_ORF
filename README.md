@@ -6,4 +6,4 @@ Finds the longest ORF of each sequence in a FASTA files and outputs the translat
 Input requires the argument:
   -i    input file
   ```
-The output is a file named "Longest_ORFs_translated.txt" in the same directory as the binary. Output format is a protein FASTA.
+The output is a file named "Longest_ORFs_translated.fasta" in the same directory as the binary. Output format is a protein FASTA.
